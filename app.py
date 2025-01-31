@@ -7,7 +7,7 @@ from together import Together
 app = Flask(__name__)
 
 # Configure Together.AI API (Replace with your credentials)
-os.environ["TOGETHER_API_KEY"] = "4fd820781ff0ffeb5ffa6292b298da0e893fccdc0a14755374f6cd99cc95ebd6"
+os.environ["TOGETHER_API_KEY"] = ""
 api_client = Together()
 
 # Global variable to store scraped data
